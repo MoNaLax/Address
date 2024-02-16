@@ -1,0 +1,106 @@
+.Instagram-button {
+  background-color: rgb(205, 72, 107);
+  color: white;
+  border: none;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s,
+    color 0.15s;
+}
+
+.Instagram-button img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.Facebook-button {
+  background-color: rgb(47, 0, 255);
+  color: white;
+  border: none;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s,
+    color 0.15s;
+}
+.Facebook-button img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.Instagram-button:hover {
+  opacity: 0.8;
+  scale: 1.05;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40);
+}
+
+.Instagram-button:active {
+  opacity: 0.8;
+  scale: 1.05;
+}
+
+.Facebook-button:hover {
+  opacity: 0.8;
+  scale: 1.05;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40);
+}
+.Facebook-button:active {
+  opacity: 0.8;
+  scale: 1.05;
+}
+
+a {
+  text-decoration: none;
+}
+
+.video-title {
+  color: white;
+  font-family: Arial;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 10px;
+}
+
+.Instagram-title {
+  font-family: Arial;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 10px;
+  color: white;
+}
+
+.Facebook-title {
+  font-family: Arial;
+  font-size: 75px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 10px;
+  color: white;
+}
+
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/88/769/281/1920x1080-px-digital-art-japan-minimalism-simple-background-sun-trees-video-games-star-wars-hd-art-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.downfall {
+  display: flex;
+  flex-direction: row;
+  gap: 25%;
+  position: absolute;
+  top: 50%;
+  left: 43.5%;
+  transform: translate(-50%, -50%);
+}
