@@ -1,5 +1,8 @@
 * {
   scroll-behavior: smooth;
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
 }
 
 .Instagram-button {
@@ -26,7 +29,6 @@
 .Facebook-button {
   background-color: rgb(47, 0, 255);
   color: white;
-  border: none;
   height: 500px;
   width: 500px;
   border-radius: 20px;
@@ -36,6 +38,10 @@
   transition: box-shadow 0.15s,
     color 0.15s;
   transition: 0.25s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .Facebook-button img {
   height: 200px;
@@ -68,13 +74,13 @@ a {
   text-decoration: none;
 }
 
-.video-title {
+h1 {
   color: white;
   font-family: Arial;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  line-height: 10px;
+  margin-top: 2rem;
 }
 
 .Instagram-title {
@@ -101,12 +107,52 @@ body {
   background-repeat: no-repeat;
 }
 
-.downfall {
+.container {
   display: flex;
   flex-direction: row;
-  gap: 25%;
-  position: absolute;
-  top: 50%;
-  left: 43.5%;
-  transform: translate(-50%, -50%);
+  gap: 10rem;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+
+  .Instagram-button {
+    width: 70%;
+    height: 250px;
+  }
+
+  .Instagram-button img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Instagram-title {
+    font-size: 1.5rem;
+  }
+
+  .Facebook-button {
+    width: 70%;
+    height: 250px;
+  }
+
+  .Facebook-button img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Facebook-title {
+    font-size: 1.5rem;
+  }
+  
+  body {
+    background-size: cover;
+  }
 }
