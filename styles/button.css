@@ -160,3 +160,48 @@ body {
   }
   
 }
+
+@media only screen and (min-width: 768px)  {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+
+  .Instagram-button {
+    width: 50%;
+    height: 400px;
+    margin-top: 4rem;
+  }
+
+  .Instagram-button img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Instagram-title {
+    font-size: 1.5rem;
+  }
+
+  .Facebook-button {
+    width: 50%;
+    height: 400px;
+  }
+
+  .Facebook-button img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Facebook-title {
+    font-size: 1.5rem;
+  }
+  
+
+  body {
+      height:100vh;
+      background-position: right;
+  }
+}
