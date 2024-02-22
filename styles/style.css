@@ -1,7 +1,7 @@
 * {
   scroll-behavior: smooth;
   padding: 0;
-  /* margin: 0; */
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -82,6 +82,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin-top: 2rem;
+  border: red 2px solid;
 }
 
 .Instagram-title {
@@ -116,6 +117,7 @@ body {
   width: 100%;
   justify-content: center;
   margin-top: 10rem;
+  border: 2px solid red;
 }
 
 /* Mobile Devices */
